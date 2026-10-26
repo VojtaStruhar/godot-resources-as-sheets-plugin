@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="UpgradeData" load_steps=7 format=3 uid="uid://d1suh8iai43st"]
+[gd_resource type="Resource" script_class="UpgradeData" format=3 uid="uid://d1suh8iai43st"]
 
 [ext_resource type="Texture2D" uid="uid://dfpwu4ra3fxgx" path="res://example/Random Upgrades/icons/all_icons/all_icons_2.tres" id="1_442ey"]
 [ext_resource type="Script" uid="uid://dal80o4tjrktw" path="res://example/Random Upgrades/upgrade_data.gd" id="2"]
@@ -21,9 +21,6 @@ color2 = Color(0.992157, 0.941176, 0.2, 1)
 base_weight = 1.0
 is_notable = true
 multiplier_per_tag = "strength 1.2"
-multiplier_if_tag_present = ""
 multiplier_if_tag_not_present = "strength 0"
-max_tags_present = ""
-list_item_delimeter = " "
 list_row_delimeter = "
 "
